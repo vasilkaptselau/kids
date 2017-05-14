@@ -1,0 +1,117 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:800);
+			body {font-family: 'Open Sans', sans-serif; width: 100%}
+			a#myAdLink{display: inline-block; background-color: #2488d6;}
+			#myAd{
+				width: 1350px; height: 630px;
+				position: relative;
+				overflow: hidden;
+				opacity: 0;
+			}
+			#myAd .myAd_Img{position: absolute; background: url(../images/clouds2.png) no-repeat 0px 0px}
+			#myAd #myAd_clouds{width: inherit; height: inherit; top: 0px; left: 0px; background-repeat: repeat-x;}
+			/*#myAd #myAd_photo {width: inherit; height: 843px; background-position: 0px 1025px; bottom: 0px; left: 0px;}*/
+			#myAd #title {
+				width: 300px; height:250px; top:80px; margin-left:30%; background: url(../images/trs.png) no-repeat; z-index: 500}
+		
+			#myAd #krosh {
+				opacity: 1; width: 300px; height:250px; background-position: -443px -530px; top:370px; left:50px;background: url(../images/krosh.png) no-repeat 0px 0px}
+			#myAd #barash {
+				opacity: 1; width: 300px; height:250px; top:470px; left:56%;background: url(../images/barash.png) no-repeat 0px 0px}
+			#myAd #sova {
+				width: 300px; height:250px; top:360px; left:75%;background: url(../images/sova1.png) no-repeat 0px 0px}
+			#myAd #los {
+				opacity: 1; width: 300px; height:250px; top:390px; left:64%;background: url(../images/los.png) no-repeat 0px 0px}
+			#myAd #nusha {
+				width: 300px; height:250px; top:450px; left:82%;background: url(../images/nusha.png) no-repeat 0px 0px}
+			#myAd #kar{width: 237px; height: 250px; background: url(../images/kar.png) no-repeat 0px 0px; top:470px; left:72%;}
+			.menu{
+				position: absolute; z-index: 300; margin-left: 75%;margin-top: 1%;
+			}
+			.menu a:hover:before {
+                content: attr(data-info);
+                color: #e88b09;
+                font-weight: bold;
+                font-size: 0.85em;
+                position: absolute;
+                top: 120%;
+                text-align: left;
+            }
+			#disc{
+				 position:relative;
+				 margin-left: 50%;
+				 margin-top: 15%;
+				 width: 40%;
+			}
+			#disc p{
+				 letter-spacing: .3em;
+				 line-height: 1.9em;
+				 font-size: large;
+				 color: green;
+				 text-shadow: 2px 2px 2px white;
+			}
+footer{
+     background-color: #72ec35;
+     width:101%;
+     height: 50px;
+     margin-top:-10px;
+	 font-size: medium;
+}
+footer p{
+     text-align: center;
+     padding-top: 10px;
+}
+@media screen and (max-width: 768px){
+	#disc{
+		margin-left: 20%;
+		margin-top: 80%;
+	}
+	/*
+	#barash{left: 400;}
+	#sova{left: 450;}
+	#los{left: 430;}
+	#nusha{left: 350;}
+	#kar{left: 410;}*/
+	
+}
+@media screen and (max-width: 320px){
+	#myAd{
+		width: 320px;
+		height: 630px;
+	}
+	#myAd #title{
+		margin-left: 1%;
+		margin-top:17%;
+		}
+	
+	#disc{
+		width: 90%;
+		margin-left: 5%;
+		margin-top: 85%;
+		
+		}
+	#disc p{
+		margin-top: -10px;
+		text-align: center;
+		font-size: small;
+		line-height: 1.1em;
+	}
+	.menu a:hover:before {
+                content: attr(data-info);
+                
+                font-weight: bold;
+                font-size: 0.85em;
+                position: absolute;
+                top: 50%;
+				left: -80%;
+                text-align:left;
+            }
+	footer{
+		width: 100%;
+		
+	}
+	
+	footer p{
+		text-align: center;
+		font-size:small;
+	}
+}	
