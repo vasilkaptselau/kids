@@ -7,10 +7,10 @@
 				overflow: hidden;
 				opacity: 0;
 			}
-			#myAd .myAd_Img{position: absolute; background: url(images/clouds2.png) no-repeat 0px 0px}
+			#myAd .myAd_Img{position: absolute; background: url(../images/clouds2.png) no-repeat 0px 0px}
 			#myAd #myAd_clouds{width: inherit; height: inherit; top: 0px; left: 0px; background-repeat: repeat-x;}
 			#myAd #title {
-				width: 300px; height:250px; top:80px; margin-left:30%; background: url(../../images/trs.png) no-repeat; z-index: 500}
+				width: 300px; height:250px; top:80px; margin-left:30%; background: url(../images/trs.png) no-repeat; z-index: 500}
 		
 			#myAd #krosh {
 				opacity: 1; width: 300px; height:250px; background-position: -443px -530px; top:370px; left:50px;background: url(../images/krosh.png) no-repeat 0px 0px}
