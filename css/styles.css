@@ -7,7 +7,7 @@
 				overflow: hidden;
 				opacity: 0;
 			}
-			#myAd .myAd_Img{position: absolute; background: url(../images/clouds2.png) no-repeat 0px 0px}
+			#myAd .myAd_Img{position: absolute; background: url(images/clouds2.png) no-repeat 0px 0px}
 			#myAd #myAd_clouds{width: inherit; height: inherit; top: 0px; left: 0px; background-repeat: repeat-x;}
 			/*#myAd #myAd_photo {width: inherit; height: 843px; background-position: 0px 1025px; bottom: 0px; left: 0px;}*/
 			#myAd #title {
