@@ -4,8 +4,7 @@
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 		<title>Smeshariki</title>
-		<!--CDN link for  TweenMax-->
-		<script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenMax.min.js"></script>
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:800" rel="stylesheet"> 
         <link href="css/styles.css" rel="stylesheet" type="text/css">
     </head>
 	<body>
@@ -36,20 +35,12 @@
          All rights reserved</p>
         </footer>
 	
-	<script type="text/javascript" src="js/CSSPlugin.min.js"></script>
-	<script type="text/javascript" src="js/EasePack.min.js"></script>
-	<script type="text/javascript" src="js/TweenLite.min.js"></script>
-	<script type="text/javascript" src="js/TweenlineMax.min.js"></script>
+	<script type="text/javascript" src="js/TweenMax.min.js"></script>
     	<script type="text/javascript">
 		(function(){
 			var tl1 = new TimelineMax();
 			tl1.to('#myAd', .4, {opacity:1})
 				.from('#krosh', 20, {opacity:1, top: 410,ease: RoughEase.ease.config({ template: Power0.easeNone, strength: 0.2, points: 160, taper: "none", randomize: false, clamp: true})})
-				//.from('#barash', 2.2, {delay:2,top: 450, left: 1500, ease: Power1.easeOut})
-				//.from('#los', 2.2, {opacity:0, top: 390, ease: Power2.easeOut}, '-=.1')
-				//.from('#nusha', 2.2, {top: 450, left: 1500, ease: Power2.easeOut})
-				//.from('#sova', 2.2, {top: -250, ease: Bounce.easeOut})
-				//.from('#kar', 1.3, {top: 700, rotation: -130, left: 300, ease: Back.easeOut})
 				.from('#title', 1.3, {top: -250,rotation:45,ease: Bounce.easeOut});
 				
 				var tl2 = new TimelineMax();
